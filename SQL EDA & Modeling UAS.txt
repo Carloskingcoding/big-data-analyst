@@ -1,0 +1,397 @@
+-- Create Metadata Table
+CREATE TABLE `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders` AS
+WITH joined_data AS (
+  SELECT 
+    oi.order_id AS order_id,
+    oi.user_id AS user_id,
+    u.first_name AS user_first_name,
+    u.last_name AS user_last_name,
+    u.email AS user_email,
+    u.gender AS user_gender,
+    u.city AS user_city,
+    u.state AS user_state,
+    o.status AS order_status,
+    o.created_at AS order_created_at,
+    o.shipped_at AS order_shipped_at,
+    o.delivered_at AS order_delivered_at,
+    o.returned_at AS order_returned_at,
+    p.id AS product_id,
+    p.name AS product_name,
+    p.category AS product_category,
+    p.brand AS product_brand,
+    p.retail_price AS product_price,
+    ii.product_department AS inventory_product_department,
+    dc.name AS distribution_center_name,
+    dc.latitude AS distribution_center_latitude,
+    dc.longitude AS distribution_center_longitude
+  FROM 
+    `bigquery-public-data.thelook_ecommerce.order_items` oi
+  JOIN 
+    `bigquery-public-data.thelook_ecommerce.users` u
+    ON oi.user_id = u.id
+  JOIN 
+    `bigquery-public-data.thelook_ecommerce.orders` o
+    ON oi.order_id = o.order_id
+  JOIN 
+    `bigquery-public-data.thelook_ecommerce.products` p
+    ON oi.product_id = p.id
+  LEFT JOIN 
+    `bigquery-public-data.thelook_ecommerce.inventory_items` ii
+    ON p.id = ii.product_id
+  LEFT JOIN 
+    `bigquery-public-data.thelook_ecommerce.distribution_centers` dc
+    ON p.distribution_center_id = dc.id
+)
+SELECT *
+FROM joined_data
+WHERE order_id IS NOT NULL
+  AND user_id IS NOT NULL
+  AND product_id IS NOT NULL
+  AND product_name IS NOT NULL
+  AND inventory_product_department IS NOT NULL
+  AND distribution_center_name IS NOT NULL
+  AND product_price > 7.00
+LIMIT 20000;
+
+
+--- Clean data 1
+CREATE TABLE `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_cleaned` AS
+SELECT 
+  CAST(order_id AS STRING) AS order_id,
+  CAST(user_id AS STRING) AS user_id,
+  user_first_name,
+  user_last_name,
+  user_email,
+  user_gender,
+  user_city,
+  user_state,
+  order_status,
+  CAST(order_created_at AS TIMESTAMP) AS order_created_at,
+  CAST(order_shipped_at AS TIMESTAMP) AS order_shipped_at,
+  CAST(order_delivered_at AS TIMESTAMP) AS order_delivered_at,
+  CAST(order_returned_at AS TIMESTAMP) AS order_returned_at,
+  CAST(product_id AS STRING) AS product_id,
+  product_name,
+  product_category,
+  product_brand,
+  CAST(product_price AS FLOAT64) AS product_price,
+  inventory_product_department,
+  distribution_center_name,
+  ST_GEOGPOINT(CAST(distribution_center_longitude AS FLOAT64), CAST(distribution_center_latitude AS FLOAT64)) AS distribution_center_geography
+FROM `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders`;
+
+
+-- fill data null in timestamp
+CREATE TABLE `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_filled` AS
+SELECT 
+  order_id,
+  user_id,
+  user_first_name,
+  user_last_name,
+  user_email,
+  user_gender,
+  user_city,
+  user_state,
+  order_status,
+  -- Ganti NULL di kolom waktu dengan nilai default
+  IFNULL(order_created_at, TIMESTAMP('1970-01-01 00:00:00')) AS order_created_at,
+  IFNULL(order_shipped_at, TIMESTAMP('1970-01-01 00:00:00')) AS order_shipped_at,
+  IFNULL(order_delivered_at, TIMESTAMP('1970-01-01 00:00:00')) AS order_delivered_at,
+  IFNULL(order_returned_at, TIMESTAMP('1970-01-01 00:00:00')) AS order_returned_at,
+  -- Tambahkan kolom indikator
+  IF(order_shipped_at IS NOT NULL, 1, 0) AS is_shipped,
+  IF(order_delivered_at IS NOT NULL, 1, 0) AS is_delivered,
+  IF(order_returned_at IS NOT NULL, 1, 0) AS is_returned,
+  product_id,
+  product_name,
+  product_category,
+  product_brand,
+  product_price,
+  inventory_product_department,
+  distribution_center_name,
+  distribution_center_geography
+FROM `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_cleaned`;
+
+
+-- Menambah lama pengiriman
+CREATE TABLE `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_with_delivery_time` AS
+SELECT 
+  *,
+  -- Hitung lama pengiriman dalam jam
+  IF(is_delivered = 1, TIMESTAMP_DIFF(order_delivered_at, order_shipped_at, HOUR), NULL) AS delivery_time_hours
+FROM `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`;
+
+
+-- 1) Distribusi Harga Produk (product_price)
+SELECT
+  product_price,
+  COUNT(*) AS frequency
+FROM
+  `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+GROUP BY
+  product_price
+ORDER BY
+  product_price;
+
+-- 2) Distribusi Lama Pengiriman (delivery_time_hours)
+SELECT
+  delivery_time_hours,
+  COUNT(*) AS frequency
+FROM
+  `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+WHERE
+  delivery_time_hours IS NOT NULL
+GROUP BY
+  delivery_time_hours
+ORDER BY
+  delivery_time_hours;
+
+
+-- 3) Jumlah Pesanan per Kategori Produk (product_category)
+SELECT
+  product_category,
+  COUNT(order_id) AS total_orders
+FROM
+  `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+GROUP BY
+  product_category
+ORDER BY
+  total_orders DESC;
+
+
+-- 4) Distribusi Status Pesanan (order_status)
+SELECT
+  order_status,
+  COUNT(*) AS total_orders
+FROM
+  `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+GROUP BY
+  order_status
+ORDER BY
+  total_orders DESC;
+
+
+-- 5) Jumlah Pesanan per Kota (user_city)
+SELECT
+  user_city,
+  COUNT(order_id) AS total_orders
+FROM
+  `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+GROUP BY
+  user_city
+ORDER BY
+  total_orders DESC
+LIMIT 10; -- Hanya menampilkan 10 kota teratas
+
+
+-- 6) Kategori Produk dengan Retur Tertinggi
+SELECT
+  product_category,
+  COUNT(order_id) AS total_returns
+FROM
+  `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+WHERE
+  is_returned = 1
+GROUP BY
+  product_category
+ORDER BY
+  total_returns DESC;
+
+
+-- 1.	Model Prediksi Waktu Pengiriman Pesanan
+CREATE OR REPLACE MODEL is429-bda-san-cornelius.IS429BDA_SanCornelius.delivery_time_model_fixed
+OPTIONS(
+  model_type='BOOSTED_TREE_REGRESSOR',
+  input_label_cols=['delivery_time_hours'],
+  max_iterations=50,               
+  subsample=0.8,                    
+  data_split_method='AUTO_SPLIT'    
+) AS
+SELECT
+  TIMESTAMP_DIFF(order_delivered_at, order_shipped_at, HOUR) AS delivery_time_hours,
+  user_gender,
+  user_city,
+  user_state,
+  order_status,
+  product_category,
+  product_brand,
+  product_price,
+  is_returned
+FROM
+  is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed
+WHERE
+  order_delivered_at IS NOT NULL
+  AND order_shipped_at IS NOT NULL;
+
+
+-- Prediksi Menggunakan Model Prediksi Waktu Pengiriman Pesanan
+SELECT
+  *
+FROM
+  ML.EXPLAIN_PREDICT(
+    MODEL `is429-bda-san-cornelius.IS429BDA_SanCornelius.return_prediction_model`,
+    (
+      SELECT
+        user_gender,
+        user_city,
+        user_state,
+        order_status,
+        product_category,
+        product_brand,
+        product_price,
+        TIMESTAMP_DIFF(order_delivered_at, order_shipped_at, HOUR) AS delivery_time_hours
+      FROM
+        `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+      WHERE
+        order_status != 'Cancelled'
+        AND order_delivered_at IS NOT NULL
+        AND order_shipped_at IS NOT NULL
+      LIMIT 100
+    )
+  );
+
+-- Evaluasi Model Prediksi Waktu Pengiriman Pesanan
+SELECT *
+FROM ML.EVALUATE(MODEL `is429-bda-san-cornelius.IS429BDA_SanCornelius.delivery_time_model_fixed`,
+  (
+  SELECT
+    TIMESTAMP_DIFF(order_delivered_at, order_shipped_at, HOUR) AS delivery_time_hours,
+    user_gender,
+    user_city,
+    user_state,
+    order_status,
+    product_category,
+    product_brand,
+    product_price,
+    is_returned
+  FROM
+    `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+  WHERE
+    order_delivered_at IS NOT NULL
+    AND order_shipped_at IS NOT NULL
+  )
+);
+
+
+
+-- 2.   Model Klasifikasi Pesanan yang Dikembalikan
+CREATE OR REPLACE MODEL `is429-bda-san-cornelius.IS429BDA_SanCornelius.return_prediction_model`
+OPTIONS(
+  model_type='BOOSTED_TREE_CLASSIFIER',
+  input_label_cols=['is_returned'],
+  max_iterations=50,
+  subsample=0.8,
+  data_split_method='AUTO_SPLIT'
+) AS
+SELECT
+  is_returned,
+  user_gender,
+  user_city,
+  user_state,
+  order_status,
+  product_category,
+  product_brand,
+  product_price,
+  TIMESTAMP_DIFF(order_delivered_at, order_shipped_at, HOUR) AS delivery_time_hours
+FROM
+  `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+WHERE
+  is_returned IS NOT NULL;
+
+
+-- Prediksi Menggunakan Model Klasifikasi Pesanan yang Dikembalikan
+SELECT
+  *
+FROM
+  ML.EXPLAIN_PREDICT(
+    MODEL `is429-bda-san-cornelius.IS429BDA_SanCornelius.return_prediction_model`,
+    (
+      SELECT
+        user_gender,
+        user_city,
+        user_state,
+        order_status,
+        product_category,
+        product_brand,
+        product_price,
+        is_returned,
+        TIMESTAMP_DIFF(order_delivered_at, order_shipped_at, HOUR) AS delivery_time_hours
+      FROM
+        `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+      WHERE
+        order_delivered_at IS NOT NULL
+        AND order_shipped_at IS NOT NULL
+      LIMIT 100
+    )
+  );
+
+
+-- 3.   Model  Prediksi Kategori Produk yang Populer
+CREATE OR REPLACE MODEL `is429-bda-san-cornelius.IS429BDA_SanCornelius.product_popularity_model`
+OPTIONS(
+  model_type='BOOSTED_TREE_REGRESSOR',
+  input_label_cols=['popularity_score'],
+  max_iterations=50,
+  subsample=0.8,
+  data_split_method='AUTO_SPLIT'
+) AS
+SELECT
+  COUNT(order_id) AS popularity_score,
+  product_category,
+  product_brand,
+  AVG(product_price) AS avg_product_price,
+  EXTRACT(YEAR FROM order_created_at) AS year,
+  EXTRACT(MONTH FROM order_created_at) AS month
+FROM
+  `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+WHERE
+  order_status = 'Delivered'
+GROUP BY
+  product_category, product_brand, year, month;
+
+
+-- Prediksi Menggunakan Model Prediksi Kategori Produk yang Populer
+SELECT
+  predicted.*,
+  actual.popularity_score AS actual_popularity_score -- Skor popularitas aktual
+FROM
+  ML.PREDICT(
+    MODEL `is429-bda-san-cornelius.IS429BDA_SanCornelius.product_popularity_model`,
+    (
+      SELECT
+        product_category,
+        product_brand,
+        AVG(product_price) AS avg_product_price,
+        EXTRACT(YEAR FROM order_created_at) AS year,
+        EXTRACT(MONTH FROM order_created_at) AS month
+      FROM
+        `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+      WHERE
+        order_status = 'Complete'
+      GROUP BY
+        product_category, product_brand, year, month
+    )
+  ) AS predicted
+JOIN
+  (
+    SELECT
+      product_category,
+      product_brand,
+      COUNT(order_id) AS popularity_score, -- Skor popularitas aktual
+      AVG(product_price) AS avg_product_price,
+      EXTRACT(YEAR FROM order_created_at) AS year,
+      EXTRACT(MONTH FROM order_created_at) AS month
+    FROM
+      `is429-bda-san-cornelius.IS429BDA_SanCornelius.carlos_transaction_orders_processed`
+    WHERE
+      order_status = 'Complete'
+    GROUP BY
+      product_category, product_brand, year, month
+  ) AS actual
+ON
+  predicted.product_category = actual.product_category
+  AND predicted.product_brand = actual.product_brand
+  AND predicted.avg_product_price = actual.avg_product_price
+  AND predicted.year = actual.year
+  AND predicted.month = actual.month;
+
