@@ -1,0 +1,1801 @@
+predicted_is_returned,probability,top_feature_attributions,baseline_prediction_value,prediction_value,approximation_error,user_gender,user_city,user_state,order_status,product_category,product_brand,product_price,is_returned,delivery_time_hours
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.72447782754898071""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.51943963766098022""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0023378273472189903""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0021232115104794502""
+  }]
+}",4.5868816375732422,5.826701486192178,0.0,M,Sena Madureira,Acre,Processing,Outerwear & Coats,Carhartt,150.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.85199415683746338""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39211994409561157""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0013967547565698624""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0011229254305362701""
+  }]
+}",4.5868816375732422,5.826701503188815,0.0,M,Sena Madureira,Acre,Cancelled,Suits & Sport Coats,Original Penguin,250.0,0,0
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.9999131765725906,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""1.0604248046875""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""-0.61265766620635986""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""-0.0011803358793258667""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00071610778104513884""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00061774905771017075""
+  }]
+}",4.5868816375732422,5.0355793111084495,0.0,F,Toyuyama-cho,Aichi,Complete,Tops & Tees,Neon Buddha,43.0,0,109
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.83777058124542236""
+  }, {
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.39838933944702148""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.0028350250795483589""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.0026550493203103542""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""-0.0024001048877835274""
+  }]
+}",4.5868816375732422,5.82670139108086,0.0,F,Marechal Deodoro,Alagoas,Cancelled,Jeans,L.A. Idol Jeans,69.949996948242188,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.73131388425827026""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.50521618127822876""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""0.0017965270671993494""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00068504828959703445""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00063767185201868415""
+  }]
+}",4.5868816375732422,5.8267015011369949,0.0,F,Marechal Deodoro,Alagoas,Processing,Intimates,Laura,23.450000762939453,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.73131388425827026""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.50521618127822876""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""0.0017965270671993494""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00068504828959703445""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00063767185201868415""
+  }]
+}",4.5868816375732422,5.8267015011369949,0.0,F,Marechal Deodoro,Alagoas,Processing,Intimates,Laura,23.450000762939453,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.73131388425827026""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.50521618127822876""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""0.0017965270671993494""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00068504828959703445""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00063767185201868415""
+  }]
+}",4.5868816375732422,5.8267015011369949,0.0,F,Marechal Deodoro,Alagoas,Processing,Intimates,Laura,23.450000762939453,0,0
+0,0.99997700761741726,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.73131388425827026""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.50521618127822876""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""0.0017965270671993494""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.00068504828959703445""
+  }, {
+    ""feature"": ""product_brand"",
+    ""attribution"": ""0.00063767185201868415""
+  }]
+}",4.5868816375732422,5.8267015011369949,0.0,F,Marechal Deodoro,Alagoas,Processing,Intimates,Laura,23.450000762939453,0,0
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
+0,0.99994632358720992,"{
+  ""top_feature_attributions"": [{
+    ""feature"": ""delivery_time_hours"",
+    ""attribution"": ""0.7938113808631897""
+  }, {
+    ""feature"": ""order_status"",
+    ""attribution"": ""0.15274207293987274""
+  }, {
+    ""feature"": ""user_gender"",
+    ""attribution"": ""-0.0058845551684498787""
+  }, {
+    ""feature"": ""product_price"",
+    ""attribution"": ""0.000606016255915165""
+  }, {
+    ""feature"": ""product_category"",
+    ""attribution"": ""0.00054399902001023293""
+  }]
+}",4.5868816375732422,5.5290257728629513,0.0,M,Bessemer,Alabama,Shipped,Shorts,Burnside,33.75,0,-479565
